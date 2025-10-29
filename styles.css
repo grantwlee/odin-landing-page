@@ -1,0 +1,156 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+
+
+body{
+    font-family: "Roboto";
+    color: #F9FAF8;
+    margin: 0;
+}
+
+h1{
+    font-weight: 900;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.top{
+    background-color: #1F2937;
+    padding: 25px 250px;
+}
+
+.hero-text{
+    font-size: 48px;
+
+}
+
+.secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    padding: 100px 0;
+    gap: 30px;
+}
+
+.left{
+    flex: 1;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eba0;
+}
+
+.title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 25px;
+}
+
+.images{
+    color: #78797ba0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.block{
+    flex-basis: 170px;
+}
+
+.img{
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height: 170px;
+    width: 170px;
+    margin-bottom: 5px;
+}
+
+.quote-block{
+    background-color: #E5E7EB;
+    padding: 120px 370px;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.person{
+    color: black;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup{
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    margin: 100px 250px;
+    border-radius: 20px;
+}
+
+.buttontwo{
+    border: 2px solid #E5E7EB;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #e5e7eba0;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
